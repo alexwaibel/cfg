@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias code=codium
+alias config='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
 
 # Set user theme
 autoload -U promptinit; promptinit
@@ -117,4 +118,4 @@ export PATH="$HOME/gems/bin:$PATH"
 
 # Enable vim key bindings
 set -o vi
-alias config='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+
