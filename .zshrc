@@ -55,6 +55,8 @@ plugins=(
 	git
 )
 
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
